@@ -43,6 +43,7 @@ No specific configuration is required for this program. However, you can customi
 ## Known Issues
 
 - The program might break if the target website's structure changes. Regular updates might be needed to adapt to such changes.
+- Limited amount of Ids, BBC Weather website addresses for locations are stored at 7 digit codes, these must be manually inputted into `locations.dat` in order to get weather data.
 - If the website blocks too many requests in a short time, you might encounter issues. Consider adding rate-limiting or using proxies if needed.
 
 ## Contributing
