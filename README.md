@@ -1,6 +1,6 @@
 # Weather Data Web Scraper
 
-This is a Python program that scrapes weather data from a website and presents it in a readable format. It fetches current weather conditions (temperature, humidity, wind speed) for a specific location from a chosen weather website.
+This is a Python program that scrapes weather data from a website and presents it in a readable format. It fetches current weather conditions (temperature, humidity, wind speed) for a specific location from the BBC weather website.
 
 ## Table of Contents
 
