@@ -25,7 +25,7 @@ This program demonstrates web scraping techniques using Python. It retrieves wea
 
 ## Usage
 
-1. Clone this repository using `git clone https://github.com/quickmotions/weather-scraper.git`.
+1. Clone this repository using `git clone https://github.com/Quickmotions/Weather-Data-Web-Scraper`.
 2. Navigate to the project directory: `cd weather-scraper`.
 3. Run the program: `python weather_scraper.py`.
 4. Follow the on-screen instructions to input the desired location.
