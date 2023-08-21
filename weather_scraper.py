@@ -1,3 +1,5 @@
+import sys
+
 import requests
 from bs4 import BeautifulSoup
 from collections import defaultdict
@@ -20,7 +22,7 @@ def main(loc: str) -> str:
 
             loc_dict[location.lower()] = id_num
 
-    if loc not in loc_dict:
+    if loc.lower() not in loc_dict:
         raise IndexError(f"Failed to find location ID for {loc}. Supply BBC weather ID in locations.dat file.")
     loc_id = loc_dict[loc.lower()]
 
@@ -45,4 +47,4 @@ def main(loc: str) -> str:
 
 
 if __name__ == "__main__":
-    print(main(input("Enter Location: ")))
+    print(main(sys.argv[1]))
