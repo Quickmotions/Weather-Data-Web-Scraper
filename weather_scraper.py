@@ -11,7 +11,7 @@ time_data_value_class = '.wr-time-slot-secondary__value'
 def main(loc: str) -> str:
     loc_dict = defaultdict(str)
 
-    with open('locations.dat', 'r') as FH:
+    with open('C:\Program Files (x86)\pyWet\locations.dat', 'r') as FH:
         for file in FH.readlines():
             line = file.strip()
             try:
